@@ -45,16 +45,17 @@ Create or edit the `.vscode/mcp.json` file to specify server options and setting
 
 ```json
 {
-  "server": {
-    "name": "Local MCP Server",
-    "executable": "dotnet",
-    "args": [
-      "run",
-      "--project",
-      "sample.mcpserver.local.csproj"
-    ],
-    "stdio": true
-  }
+  "servers": {
+        "sample-mcp-server": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "src/sample.mcpserver/sample.mcpserver.local/sample.mcpserver.local.csproj"
+            ]
+        }
+    }
 }
 ```
 
