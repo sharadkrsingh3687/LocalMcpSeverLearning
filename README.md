@@ -71,7 +71,7 @@ To run the MCP server as an AI Agent within Visual Studio Code:
 1. **Open GitHub Copilot**  
    - Click the Copilot icon in the VS Code Activity Bar  
      *or*  
-     - Use the Command Palette (`Ctrl+Shift+P`) and search for "GitHub Copilot".
+   - Use the Command Palette (`Ctrl+Shift+P`) and search for "GitHub Copilot".
 
 2. **Select Agent Mode**  
    - In the Copilot panel, locate the mode selector (usually at the top or in the sidebar).
